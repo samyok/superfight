@@ -325,8 +325,6 @@ const modifiers = ` 10 of them
  riding a hoverboard
  riding a motorcycle
  riding a war elephant
- riding a_ draw a character from the deck
- riding a_ draw a character from the deck
  scissor hands
  screams names of attacks before using them
  shoots acid
@@ -389,7 +387,6 @@ const modifiers = ` 10 of them
  armed with a really really bright laser pointer
  armed with a surface-to-air missile launcher
  armer with a limitless loot crate
- bitten by a radioactive_ draw a random character card
  can call orbital bombardments
  can fly...at the speed of molasses
  can leap over tall buildings in a single bound
@@ -416,7 +413,6 @@ const modifiers = ` 10 of them
  stuck in one of those electric cars for toddlers
  swinging a two-ton tuna
  throws water billions filled with acid
- using a_ as a club draw a random character card
  wearing a bubble wrap suit
  wearing a scuba suit
  wrapped in toilet paper`.split('\n').map(a => a.trim());
@@ -575,7 +571,6 @@ the doctor
 the dude
 the Illuminati
 the kardashians
-the player to your left
 the pope
 The Statue of library
 the u.n.
