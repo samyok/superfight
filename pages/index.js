@@ -415,7 +415,8 @@ const modifiers = ` 10 of them
  throws water billions filled with acid
  wearing a bubble wrap suit
  wearing a scuba suit
- wrapped in toilet paper`.split('\n').map(a => a.trim());
+ wrapped in toilet paper
+ (very cool)`.split('\n').map(a => a.trim());
 const heroes = `101 Dalmatians
 Abraham Lincoln
 alien
@@ -626,7 +627,8 @@ the navy
 the player to your right
 trapper
 water buffalo
-yeti`.split('\n').map(a => a[0].toUpperCase() + a.substring(1).toLowerCase())
+yeti
+a minecraft youtuber`.split('\n').map(a => a[0].toUpperCase() + a.substring(1).toLowerCase())
 
 export function getServerSideProps(ctx) {
     let props = {
